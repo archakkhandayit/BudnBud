@@ -60,7 +60,7 @@ const MessageListItem = () => (
 
 // Chat window
 const MessageContent = ({ dropdownOpen, setDropdownOpen }) => (
-  <div className="bg-[#F8F9FA] rounded-[20px] shadow px-[20px] sm:px-[34px] py-[20px] sm:py-[30px] flex flex-col gap-3 w-full sm:w-[650px] h-auto sm:h-[710px] relative">
+  <div className="bg-[#F8F9FA] rounded-[20px] px-[20px] sm:px-[34px] py-[20px] sm:py-[30px] flex flex-col gap-3 w-full sm:w-[650px] h-auto sm:h-[710px] relative">
     {/* Header */}
     <div className="flex items-center justify-between mb-3 border-b-2 border-[#B2B9BA]">
       <div className="flex items-center pb-3">
@@ -155,7 +155,7 @@ function DashboardMessages() {
         </div>
 
         {/* Main content */}
-        <div className="flex flex-col items-start w-full lg:w-[1060px] mt-[26px] p-4 sm:p-6 bg-white rounded-[24px] shadow-sm mx-auto">
+        <div className="flex flex-col items-start w-full lg:w-[1060px] mt-[26px] p-4 sm:p-6 bg-white rounded-[24px] mx-auto">
           <MessageTabs active={tab} onChange={setTab} />
           <div className="flex flex-col lg:flex-row gap-[22px] w-full">
             <div className="w-full lg:w-[340px]">

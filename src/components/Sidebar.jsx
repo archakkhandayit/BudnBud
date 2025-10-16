@@ -22,7 +22,7 @@ const Sidebar = () => (
     <div className="mb-6 bg-[#E6E9E9] 
       w-full h-auto md:h-[486px] 
       rounded-[30px] md:rounded-[45px] 
-      p-4 md:p-6 shadow-md">
+      p-4 md:p-6">
       
       <div>
         <div className="inline-block bg-[#FF9FBC] 
@@ -52,7 +52,7 @@ const Sidebar = () => (
           </li>
         ))}
 
-        <li className="flex items-center px-4 gap-3 sm:gap-[15px] bg-[#F8F9FA] py-[10px] sm:py-[13px] rounded-[12px] sm:rounded-[16px] text-[#071E22] font-extrabold mt-2 shadow-sm cursor-pointer">
+        <li className="flex items-center px-4 gap-3 sm:gap-[15px] bg-[#F8F9FA] py-[10px] sm:py-[13px] rounded-[12px] sm:rounded-[16px] text-[#071E22] font-extrabold mt-2 cursor-pointer">
           <img src={messageImg} alt="Messages" className="w-5 sm:w-6" />
           Messages
         </li>
@@ -65,7 +65,7 @@ const Sidebar = () => (
     </div>
 
     {/* ---- Bottom Section ---- */}
-    <div className="bg-[#E6E9E9] w-full h-auto md:h-[315px] rounded-[30px] md:rounded-[45px] p-4 md:p-6 shadow-md">
+    <div className="bg-[#E6E9E9] w-full h-auto md:h-[315px] rounded-[30px] md:rounded-[45px] p-4 md:p-6">
       <div>
         <div className="flex items-center bg-[#F8F9FA] rounded-full mb-[25px] sm:mb-[30px] p-[3px] w-full sm:w-[254px] mx-auto">
           <button className="bg-[#FF2E6D] text-white font-bold rounded-full border-black border-[1px] flex-1 py-[7px] text-[14px] sm:text-[16px]">
