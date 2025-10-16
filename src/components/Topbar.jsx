@@ -27,21 +27,9 @@ const Topbar = () => (
             className="h-[56px] w-[56px] rounded-full"
           />
         </span>
-        {/* <span className="ml-2">
-          
-        </span> */}
       </div>
     </div>
-    {/* <div className="flex items-center space-x-[36px]"> */}
-    {/* <span className="bg-[#ff5582] rounded-full w-[36px] h-[36px] flex items-center justify-center"> */}
-    {/* <svg width="19" height="20" fill="none">
-          <rect width="19" height="20" rx="8" fill="#FF5582" />
-          <rcle cx="9.5" cy="10" r="7.5" fillll="#fff" />
-          <rcle cx="9.5" cy="10" r="4.5" fillll="#FF5582" />
-        </svg> */}
-    {/* </span> */}
-    {/* </div> */}
   </div>
 );
 
-export default Topbar
+export default Topbar;
